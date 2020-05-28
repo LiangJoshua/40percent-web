@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/calisthantics-web/static/css/main.5f361e03.chunk.css",
+    "main.js": "/calisthantics-web/static/js/main.60600d00.chunk.js",
+    "main.js.map": "/calisthantics-web/static/js/main.60600d00.chunk.js.map",
+    "runtime-main.js": "/calisthantics-web/static/js/runtime-main.978b2c6c.js",
+    "runtime-main.js.map": "/calisthantics-web/static/js/runtime-main.978b2c6c.js.map",
+    "static/js/2.13ae9985.chunk.js": "/calisthantics-web/static/js/2.13ae9985.chunk.js",
+    "static/js/2.13ae9985.chunk.js.map": "/calisthantics-web/static/js/2.13ae9985.chunk.js.map",
+    "index.html": "/calisthantics-web/index.html",
+    "precache-manifest.ac140de917faae62f620e936e4bee624.js": "/calisthantics-web/precache-manifest.ac140de917faae62f620e936e4bee624.js",
+    "service-worker.js": "/calisthantics-web/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/calisthantics-web/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.13ae9985.chunk.js.LICENSE.txt": "/calisthantics-web/static/js/2.13ae9985.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/calisthantics-web/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.978b2c6c.js",
+    "static/js/2.13ae9985.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.60600d00.chunk.js"
+  ]
+}
