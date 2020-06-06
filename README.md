@@ -2,6 +2,10 @@
 
 `calisthantics-web` is a self-contained web server
 
+## IDE settings
+
+- [Visual Studio Code](https://github.com/LiangJoshua/devops-infrastructure/tree/master/dev/vscode)
+
 ## Development
 
 ### Install dependencies
@@ -22,7 +26,9 @@ view and develop 'mock screens' without needing to connect to the backend. To le
 more, visit the dev homepage at `localhost:3000/`.
 
 ### Deploy to GitHub Pages(Production)
+
 #### You should not be doing this unless given permission.
+
 ```sh
 $ npm run deploy
 ```
