@@ -1,6 +1,6 @@
-# calisthantics-web
+# 40percent-web
 
-`calisthantics-web` is a self-contained web server
+`40percent-web` is a self-contained web server
 
 ## IDE settings
 
