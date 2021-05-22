@@ -1,4 +1,4 @@
-# 40percent-web
+# forty-percent-web
 
 `40percent-web` is a self-contained web server
 
