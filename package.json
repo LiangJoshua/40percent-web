@@ -1,6 +1,5 @@
 {
-  "homepage": "http://LiangJoshua.github.io/calisthantics-web",
-  "name": "calisthantics-web",
+  "name": "forty-percent-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,6 +20,7 @@
     "css-loader": "3.4.2",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
+    "env-cmd": "^10.1.0",
     "eslint": "^6.6.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-loader": "3.0.3",
@@ -37,6 +37,7 @@
     "jest-environment-jsdom-fourteen": "1.0.1",
     "jest-resolve": "24.9.0",
     "jest-watch-typeahead": "0.4.2",
+    "jquery": "^3.6.0",
     "mini-css-extract-plugin": "0.9.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "pnp-webpack-plugin": "1.6.4",
@@ -49,6 +50,7 @@
     "react-app-polyfill": "^1.0.6",
     "react-dev-utils": "^11.0.4",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",
     "sass-loader": "8.0.2",
@@ -66,6 +68,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
+    "start:staging": "NODE_ENV=staging npm run start",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
@@ -75,7 +78,12 @@
       "not dead",
       "not op_mini all"
     ],
-    "development": [
+    "stage": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "dev": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
@@ -93,7 +101,6 @@
     "eslint-plugin-standard": "^4.0.1",
     "prettier": "^1.19.1"
   },
-  "proxy": "http://localhost:5000",
   "jest": {
     "roots": [
       "<rootDir>/src"
